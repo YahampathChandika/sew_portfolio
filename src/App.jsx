@@ -1,7 +1,11 @@
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-red-500">
-      Hello world!
-    </h1>
-  )
+    <div className="flex flex-col bg-gray-100 min-h-screen">
+      <Navbar />
+      <Hero />
+    </div>
+  );
 }
