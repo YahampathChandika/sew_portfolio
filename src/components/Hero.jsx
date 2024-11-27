@@ -24,7 +24,7 @@ export default function Hero() {
                 href="https://www.linkedin.com/in/sewwandi-nirushika-349a05238/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white w-20 h-20 flex items-center justify-center px-6 py-2 rounded shadow-lg"
+                className="bg-white w-20 h-20 flex items-center justify-center px-6 py-2 rounded shadow-lg hover:bg-pnk hover:text-white hover:scale-105 transition-transform duration-300"
               >
                 <i className="fab fa-linkedin-in text-3xl"></i>
               </a>
@@ -32,7 +32,7 @@ export default function Hero() {
                 href="https://github.com/yourgithubprofile"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white w-20 h-20 flex items-center justify-center px-6 py-2 rounded shadow-lg"
+                className="bg-white w-20 h-20 flex items-center justify-center px-6 py-2 rounded shadow-lg hover:bg-pnk hover:text-white hover:scale-105 transition-transform duration-300"
               >
                 <i className="fab fa-github text-3xl"></i>
               </a>
@@ -40,7 +40,7 @@ export default function Hero() {
                 href="https://www.instagram.com/yourinstagramprofile/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white w-20 h-20 flex items-center justify-center px-6 py-2 rounded shadow-lg"
+                className="bg-white w-20 h-20 flex items-center justify-center px-6 py-2 rounded shadow-lg hover:bg-pnk hover:text-white hover:scale-105 transition-transform duration-300"
               >
                 <i className="fab fa-instagram text-3xl"></i>
               </a>
@@ -52,19 +52,19 @@ export default function Hero() {
             <div className="flex space-x-4 text-gray-500">
               <a
                 href="#"
-                className="bg-white w-20 h-20 flex items-center justify-center px-6 py-2 rounded shadow-lg"
+                className="bg-white w-20 h-20 flex items-center justify-center px-6 py-2 rounded shadow-lg hover:bg-pnk hover:text-white hover:scale-105 transition-transform duration-300"
               >
                 <i className="fab fa-react text-3xl"></i>
               </a>
               <a
                 href="#"
-                className="bg-white w-20 h-20 flex items-center justify-center px-6 py-2 rounded shadow-lg"
+                className="bg-white w-20 h-20 flex items-center justify-center px-6 py-2 rounded shadow-lg hover:bg-pnk hover:text-white hover:scale-105 transition-transform duration-300"
               >
                 <i className="fab fa-node text-3xl"></i>
               </a>
               <a
                 href="#"
-                className="bg-white w-20 h-20 flex items-center justify-center px-6 py-2 rounded shadow-lg"
+                className="bg-white w-20 h-20 flex items-center justify-center px-6 py-2 rounded shadow-lg hover:bg-pnk hover:text-white hover:scale-105 transition-transform duration-300"
               >
                 <i className="fas fa-database text-3xl"></i>
               </a>
