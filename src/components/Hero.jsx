@@ -6,8 +6,9 @@ export default function Hero() {
       {/* Left Section */}
       <div className="w-1/2 space-y-6">
         <p className="text-lg font-medium ">Welcome to my world</p>
-        <p className="text-6xl font-semibold ">
-          Hi, I’m <span className="text-pnk">Sewwandi</span> <br /> a Developer
+        <p className="text-6xl font-semibold leading-tight">
+          Hi, I’m <span className="text-pnk">Sewwandi</span> <br /> a Full-Stack
+          Developer
         </p>
         <p className="text-gray-600 text-lg">
           I use animation as a third dimension by which to simplify experiences
@@ -20,19 +21,25 @@ export default function Hero() {
             <p className="text-base font-semibold mb-3 mt-36">FIND WITH ME</p>
             <div className="flex space-x-4 text-gray-500">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/sewwandi-nirushika-349a05238/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-white w-20 h-20 flex items-center justify-center px-6 py-2 rounded shadow-lg"
               >
                 <i className="fab fa-linkedin-in text-3xl"></i>
               </a>
               <a
-                href="#"
+                href="https://github.com/yourgithubprofile"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-white w-20 h-20 flex items-center justify-center px-6 py-2 rounded shadow-lg"
               >
                 <i className="fab fa-github text-3xl"></i>
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/yourinstagramprofile/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-white w-20 h-20 flex items-center justify-center px-6 py-2 rounded shadow-lg"
               >
                 <i className="fab fa-instagram text-3xl"></i>
