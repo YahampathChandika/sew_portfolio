@@ -10,7 +10,8 @@ const skills = [
   {
     id: 2,
     name: "Node.js",
-    image: "https://www.sunriseintegration.com/uploads/attachments/cl4yq770gm8w7j1p76vf1ex1l-sunrise-integration-1x1-block-6.full.png", // Node.js logo
+    image:
+      "https://www.sunriseintegration.com/uploads/attachments/cl4yq770gm8w7j1p76vf1ex1l-sunrise-integration-1x1-block-6.full.png", // Node.js logo
   },
   {
     id: 3,
@@ -20,56 +21,68 @@ const skills = [
   {
     id: 4,
     name: "MongoDB",
-    image: "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg", // MongoDB logo
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg", // MongoDB logo
   },
   {
     id: 5,
     name: "Tailwind CSS",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVSRkCHOvhw_BKVpwLyGwi5RfMxXmXwquQ2A&s", // Tailwind CSS logo
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVSRkCHOvhw_BKVpwLyGwi5RfMxXmXwquQ2A&s", // Tailwind CSS logo
   },
   {
     id: 6,
     name: "Express.js",
-    image: "https://e7.pngegg.com/pngimages/558/166/png-clipart-node-js-javascript-react-express-js-linux-foundation-mongodb-icons-angle-text-thumbnail.png", // Express.js logo
+    image:
+      "https://e7.pngegg.com/pngimages/558/166/png-clipart-node-js-javascript-react-express-js-linux-foundation-mongodb-icons-angle-text-thumbnail.png", // Express.js logo
   },
   {
     id: 7,
     name: "Vue.js",
-    image: "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg", // Vue.js logo
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg", // Vue.js logo
   },
   {
     id: 8,
     name: "GraphQL",
-    image: "https://cdn.iconscout.com/icon/free/png-256/free-graphql-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-3-pack-logos-icons-3028854.png?f=webp", // GraphQL logo
+    image:
+      "https://cdn.iconscout.com/icon/free/png-256/free-graphql-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-3-pack-logos-icons-3028854.png?f=webp", // GraphQL logo
   },
   {
     id: 9,
     name: "Docker",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkJfoh0XOcxmaYzhLlmhpxmkZfOiCUNWT7wQ&s", // Docker logo
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkJfoh0XOcxmaYzhLlmhpxmkZfOiCUNWT7wQ&s", // Docker logo
   },
   {
     id: 10,
     name: "AWS",
-    image: "https://w7.pngwing.com/pngs/862/624/png-transparent-aws-vector-brand-logos-icon-thumbnail.png", // AWS logo
+    image:
+      "https://w7.pngwing.com/pngs/862/624/png-transparent-aws-vector-brand-logos-icon-thumbnail.png", // AWS logo
   },
   {
     id: 11,
     name: "TypeScript",
-    image: "https://w7.pngwing.com/pngs/74/362/png-transparent-typescript-plain-logo-icon-thumbnail.png", // TypeScript logo
+    image:
+      "https://w7.pngwing.com/pngs/74/362/png-transparent-typescript-plain-logo-icon-thumbnail.png", // TypeScript logo
   },
   {
     id: 12,
     name: "Python",
-    image: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg", // Python logo
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg", // Python logo
   },
 ];
 
 export default function Skills() {
   return (
-    <div id="skills" className="py-16 px-4 sm:px-8 bg-gray-100">
+    <div id="skills" className="pb-16 px-4 sm:px-8 bg-gray-100">
+      <hr className="border border-gray-400 w-full mx-auto mb-12" />
       <div className="text-center sm:text-left mb-12 w-full">
         <p className="text-2xl text-pink-500 mt-2 leading-loose">Skills</p>
-        <h2 className="text-4xl sm:text-6xl font-bold text-black">My Tech Stack</h2>
+        <h2 className="text-4xl sm:text-6xl font-bold text-black">
+          My Tech Stack
+        </h2>
       </div>
 
       {/* Skills Grid */}

@@ -31,9 +31,9 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="py-16 px-4 sm:px-6 bg-gray-100 flex flex-col items-center"
+      className="pb-16 px-4 sm:px-6 bg-gray-100 flex flex-col items-center"
     >
-      <hr className="border-1 border-gray-400 w-full mx-auto mb-16" />
+      <hr className="border border-gray-400 w-full mx-auto mb-12" />
       <div className="text-center mb-12 w-full">
         <p className="text-2xl text-pink-600 mt-2 leading-loose">Projects</p>
         <h2 className="text-4xl md:text-6xl font-bold text-black">My Work</h2>

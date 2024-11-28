@@ -29,8 +29,12 @@ const experiences = [
 
 export default function Work() {
   return (
-    <div id="work" className="py-16 px-4 sm:px-8 bg-gray-100 flex flex-col items-center">
+    <div
+      id="work"
+      className="pb-16 px-4 sm:px-8 bg-gray-100 flex flex-col items-center"
+    >
       {/* Section Title */}
+      <hr className="border border-gray-400 w-full mx-auto mb-12" />
       <div className="text-center sm:text-left mb-12 w-full max-w-screen-lg">
         <p className="text-2xl text-pnk mt-2 leading-loose">Career</p>
         <h2 className="text-4xl sm:text-6xl font-bold text-blck">
