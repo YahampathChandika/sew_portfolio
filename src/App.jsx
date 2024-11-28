@@ -7,9 +7,9 @@ import Work from "./components/Work";
 
 export default function App() {
   return (
-    <div className="flex flex-col bg-gray-100 min-h-screen">
+    <div className="flex flex-col bg-gray-100 min-h-screen min-w-fit">
       <Navbar />
-      <div className="px-56">
+      <div className="pt-24 px-8 md:px-56 w-full"> {/* Adjusted padding-top */}
         <Hero />
         <Features />
         <Projects />

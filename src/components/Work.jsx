@@ -29,25 +29,38 @@ const experiences = [
 
 export default function Work() {
   return (
-    <div className="py-24 flex flex-col items-center bg-gray-100">
+    <div id="work" className="py-16 px-4 sm:px-8 bg-gray-100 flex flex-col items-center">
       {/* Section Title */}
-      <div className="text-left mb-12 w-full">
+      <div className="text-center sm:text-left mb-12 w-full max-w-screen-lg">
         <p className="text-2xl text-pnk mt-2 leading-loose">Career</p>
-        <h2 className="text-6xl font-bold text-blck">Work Experience</h2>
+        <h2 className="text-4xl sm:text-6xl font-bold text-blck">
+          Work Experience
+        </h2>
       </div>
 
       {/* Timeline */}
-      <div className="relative border-l-2 border-pnk">
+      <div className="relative border-l-2 border-pnk w-full max-w-screen-lg">
         {experiences.map((exp) => (
-          <div key={exp.id} className="mb-10 ml-6 group transition-all duration-300 cursor-pointer">
+          <div
+            key={exp.id}
+            className="mb-6 sm:mb-10 ml-6 group transition-all duration-300 cursor-pointer"
+          >
             {/* Timeline Marker */}
             <div className="absolute w-4 h-4 bg-pnk rounded-full -left-2.5 border-2 border-wht"></div>
             {/* Content */}
-            <div className="bg-wht hover:bg-pnk p-6 rounded-lg shadow-lg transition-all duration-300 group-hover:text-wht">
-              <h3 className="text-2xl font-semibold text-blck transition-all duration-300 group-hover:text-wht">{exp.title}</h3>
-              <p className="text-lg text-pnk font-medium transition-all duration-300 group-hover:text-wht">{exp.company}</p>
-              <span className="text-gray-500 text-sm transition-all duration-300 group-hover:text-wht">{exp.duration}</span>
-              <p className="text-gray-600 mt-4 transition-all duration-300 group-hover:text-wht">{exp.description}</p>
+            <div className="bg-white hover:bg-pnk p-6 rounded-lg shadow-lg transition-all duration-300 group-hover:text-white">
+              <h3 className="text-xl sm:text-2xl font-semibold text-blck transition-all duration-300 group-hover:text-white">
+                {exp.title}
+              </h3>
+              <p className="text-lg text-pnk font-medium transition-all duration-300 group-hover:text-white">
+                {exp.company}
+              </p>
+              <span className="text-gray-500 text-sm transition-all duration-300 group-hover:text-white">
+                {exp.duration}
+              </span>
+              <p className="text-gray-600 mt-4 transition-all duration-300 group-hover:text-white">
+                {exp.description}
+              </p>
             </div>
           </div>
         ))}

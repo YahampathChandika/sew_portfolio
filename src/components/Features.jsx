@@ -48,27 +48,27 @@ const features = [
 
 export default function Features() {
   return (
-    <div className="py-24 flex flex-col items-center bg-gray-100">
-      <hr className="border-1 border-gray-400 w-full mx-auto mb-20" />
-      <div className="text-left mb-12 w-full">
+    <div id="features" className="py-16 px-4 sm:px-8 bg-gray-100">
+      <hr className="border border-gray-400 w-full mx-auto mb-12" />
+      <div className="text-center sm:text-left mb-12 w-full">
         <p className="text-2xl text-pnk mt-2 leading-loose">Features</p>
-        <h2 className="text-6xl font-bold text-blck">What I Do</h2>
+        <h2 className="text-4xl sm:text-6xl font-bold text-blck">What I Do</h2>
       </div>
 
       {/* Features Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {features.map((feature) => (
           <div
             key={feature.id}
-            className="bg-wht shadow-lg px-12 py-20 flex flex-col justify-around rounded-lg transition-all duration-300 hover:shadow-xl hover:bg-gradient-to-br hover:from-pnk hover:to-red-600 group cursor-pointer"
+            className="bg-white shadow-lg px-8 py-12 flex flex-col justify-around rounded-lg transition-all duration-300 hover:shadow-xl hover:scale-105 hover:bg-gradient-to-br hover:from-pnk hover:to-red-600 group cursor-pointer"
           >
             <i
-              className={`${feature.icon} text-3xl text-pnk mb-5 group-hover:text-wht transition-all duration-300`}
+              className={`${feature.icon} text-4xl text-pnk mb-4 group-hover:text-white transition-all duration-300`}
             ></i>
-            <h3 className="text-2xl font-semibold text-blck mb-5 group-hover:text-wht transition-all duration-300">
+            <h3 className="text-xl sm:text-2xl font-semibold text-blck mb-4 group-hover:text-white transition-all duration-300">
               {feature.title}
             </h3>
-            <p className="text-gray-600 group-hover:text-wht transition-all duration-300">
+            <p className="text-gray-600 group-hover:text-white transition-all duration-300">
               {feature.description}
             </p>
           </div>
