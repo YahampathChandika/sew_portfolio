@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="flex !h-full items-center justify-between px-48">
+    <div className="flex !h-full items-center justify-between">
       {/* Left Section */}
       <div className="w-1/2 space-y-6">
         <p className="text-lg font-medium ">Welcome to my world</p>
