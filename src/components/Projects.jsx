@@ -76,7 +76,7 @@ const Projects = () => {
             boxShadow: 24,
             px: 4,
             py: 5,
-            maxHeight: "95vh",
+            maxHeight: "90vh",
             overflowY: "auto",
             outline: "none",
             "@media (max-width: 768px)": { width: "90%", px: 3, py: 4 },

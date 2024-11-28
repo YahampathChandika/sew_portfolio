@@ -36,7 +36,7 @@ export default function Navbar() {
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-3">
           <img
-            src="https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/04cbf851-aeb2-4af6-be64-15feff838f36/569972be-0c98-4859-87b3-dd145228b33e.png"
+            src="https://i.pinimg.com/736x/99/8f/41/998f41fc4c63e69c06b99a6e03629815.jpg"
             className="rounded-full h-12 w-12 md:h-14 md:w-14"
             alt="pp"
           />
