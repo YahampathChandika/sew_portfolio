@@ -29,7 +29,10 @@ const Projects = () => {
   };
 
   return (
-    <div id="projects" className="py-16 px-4 sm:px-6 bg-gray-100 flex flex-col items-center">
+    <div
+      id="projects"
+      className="py-16 px-4 sm:px-6 bg-gray-100 flex flex-col items-center"
+    >
       <hr className="border-1 border-gray-400 w-full mx-auto mb-16" />
       <div className="text-center mb-12 w-full">
         <p className="text-2xl text-pink-600 mt-2 leading-loose">Projects</p>
@@ -57,7 +60,9 @@ const Projects = () => {
                 {project.description}
               </p>
             </div>
-            <i className="fas fa-external-link-alt text-pink-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 absolute bottom-4 right-4 text-xl"></i>
+            <span class="material-symbols-outlined text-pink-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 absolute bottom-4 right-4 text-2xl">
+              open_in_new
+            </span>
           </div>
         ))}
       </div>
