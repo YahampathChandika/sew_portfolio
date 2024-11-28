@@ -56,7 +56,7 @@ export default function Projects() {
   return (
     <div className="py-24 flex flex-col items-center bg-gray-100">
       <hr className="border-1 border-gray-400 w-full mx-auto mb-20" />
-      <div className="text-left mb-12 w-full">
+      <div className="text-center mb-16 w-full">
         <p className="text-2xl text-pnk mt-2 leading-loose">Projects</p>
         <h2 className="text-6xl font-bold text-blck">My Work</h2>
       </div>
