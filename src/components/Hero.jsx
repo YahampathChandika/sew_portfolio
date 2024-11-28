@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div
       id="home"
-      className="flex flex-col md:flex-row items-center justify-between px-4 md:px-20 py-10 md:py-20 space-y-10 md:space-y-0"
+      className="flex flex-col md:flex-row items-center justify-between px-4 md:px-20 py-0 md:py-20 space-y-10 md:space-y-0"
     >
       {/* Left Section */}
       <div className="w-full md:w-1/2 space-y-6 text-center md:text-left">

@@ -1,8 +1,15 @@
 import React from "react";
 
 export default function Footer() {
+  const handleScroll = (sectionId) => {
+    const targetSection = document.getElementById(sectionId);
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <footer id="contact" className="bg-blck text-wht py-10">
+    <footer id="contact" className="bg-black text-white py-10">
       <div className="container mx-auto px-6 lg:px-20">
         {/* Top Section */}
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start space-y-10 md:space-y-0">
@@ -20,36 +27,36 @@ export default function Footer() {
             <h3 className="text-xl font-semibold">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="#features"
+                <button
+                  onClick={() => handleScroll("features")}
                   className="text-gray-400 hover:text-pnk transition-all"
                 >
                   Features
-                </a>
+                </button>
               </li>
               <li>
-                <a
-                  href="#projects"
+                <button
+                  onClick={() => handleScroll("projects")}
                   className="text-gray-400 hover:text-pnk transition-all"
                 >
                   Projects
-                </a>
+                </button>
               </li>
               <li>
-                <a
-                  href="#work"
+                <button
+                  onClick={() => handleScroll("work")}
                   className="text-gray-400 hover:text-pnk transition-all"
                 >
-                  Work Experience
-                </a>
+                  Work
+                </button>
               </li>
               <li>
-                <a
-                  href="#contact"
+                <button
+                  onClick={() => handleScroll("contact")}
                   className="text-gray-400 hover:text-pnk transition-all"
                 >
                   Contact
-                </a>
+                </button>
               </li>
             </ul>
           </div>

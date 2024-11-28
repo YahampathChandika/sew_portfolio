@@ -76,7 +76,7 @@ const Projects = () => {
             boxShadow: 24,
             px: 4,
             py: 5,
-            maxHeight: "80vh",
+            maxHeight: "95vh",
             overflowY: "auto",
             outline: "none",
             "@media (max-width: 768px)": { width: "90%", px: 3, py: 4 },
@@ -151,19 +151,19 @@ const Projects = () => {
               href={selectedProject?.githubFrontend}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 flex items-center space-x-1 hover:text-blue-700 transition-all text-sm md:text-base"
+              className="text-blck flex items-center space-x-1 hover:text-black transition-all text-sm md:text-base"
             >
               <i className="fab fa-github"></i>
-              <span>Frontend GitHub</span>
+              <span>Frontend Code</span>
             </a>
             <a
               href={selectedProject?.githubBackend}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 flex items-center space-x-1 hover:text-blue-700 transition-all text-sm md:text-base"
+              className="text-blck flex items-center space-x-1 hover:text-blck transition-all text-sm md:text-base"
             >
               <i className="fab fa-github"></i>
-              <span>Backend GitHub</span>
+              <span>Backend Code</span>
             </a>
           </div>
         </Box>
